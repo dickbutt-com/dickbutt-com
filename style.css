@@ -1,10 +1,17 @@
 /* css reset */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 
+/* typography */
+@font-face {
+    font-family: "Aldi";
+    src: url("/fonts/Aldi-Regular.otf");
+}
+
+
 /* main styles */
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Aldi", Arial, Helvetica, sans-serif;
 }
 
 header {
